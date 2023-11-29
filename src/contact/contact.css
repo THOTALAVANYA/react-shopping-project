@@ -1,0 +1,55 @@
+/* styles.css */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: large;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 300px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 10px; /* Add rounded border */
+  margin-top: 5px;
+}
+
+.input-group textarea {
+  height: 100px;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: #3498db !important;
+}
+
+.cancel,
+.submit {
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+.cancel:hover,
+.submit:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
